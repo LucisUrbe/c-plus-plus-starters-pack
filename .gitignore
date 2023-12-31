@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# VSCode local files
+*.code-workspace

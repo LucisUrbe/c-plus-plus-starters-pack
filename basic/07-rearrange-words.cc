@@ -9,7 +9,7 @@
 
 #include <iostream>
 
-int main(int argc, char* argv[]) {
+int main(int argc, const char* argv[]) {
     char words[10][11], sentence[110], key = ' ';
     int counter = 0, length[10] = {0}, total_length[10] = {0};
     // Step 1: input a sentence without a full stop(.)

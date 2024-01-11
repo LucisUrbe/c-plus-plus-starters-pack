@@ -25,17 +25,25 @@ class Cell {
         bool grow();
 };
 
-
+// Write some code below. (Define a new class to derive class "Cell")
+// Do not define other global variables or functions unless they are operator overloads of the classes.
+// The class to derive "Cell" has 2 new private data members and no public data members.
+// The 2 private members must be called "id" and "counter", both are int.
+// The class to derive "Cell" has at most 3 member functions.
+// The operators needed to be overloaded are only = << and >>
 class NewCell: public Cell {
     friend ostream& operator<<(ostream& output, NewCell& target);
+    // Step 1: declare the private integers
     private:
         int id;
         static int counter;
+    // Step 2: declare "operator=" overloads and "grow" method
     public:
         bool operator=(Cell& source);
         bool operator=(NewCell& source);
         bool grow(void);
 };
+// Write some code above. 
 
 int main() {
     Cell init_cell;
@@ -79,13 +87,18 @@ int main() {
     return 0;
 }
 
+// Write some code below to define everything in class "Cell" and its derived class.
+// Step 3: initialize the static members
 int Cell::resource = 500;
 int NewCell::counter = 0;
 
+// Step 4: define all methods in classes
 
+/// @brief Constructor of the initial cell (Cell #0).
 istream &operator>>(istream& input, Cell& initialCell) {
     int spawnSize;
     input >> spawnSize;
+    // User must input an integer within range [1, 100].
     if (spawnSize < 1 || spawnSize > 100) {
         cerr << "*** Invalid input! The input is now changed to 1. ***" << endl;
         spawnSize = 1;
@@ -96,6 +109,7 @@ istream &operator>>(istream& input, Cell& initialCell) {
     return input;
 }
 
+/// @brief Let the initial cell eat.
 ostream& operator<<(ostream& output, NewCell& target) {
     NewCell::resource += target.size;
     target.size -= target.size;
@@ -103,6 +117,7 @@ ostream& operator<<(ostream& output, NewCell& target) {
     return output;
 }
 
+/// @brief Constructor of new normal cells.
 bool NewCell::operator=(Cell& initialCell) {
     if (this == &initialCell)
         return true;
@@ -113,6 +128,7 @@ bool NewCell::operator=(Cell& initialCell) {
     return false;
 }
 
+/// @brief Spawn more normal cells if the resources are enough.
 bool NewCell::operator=(NewCell& source) {
     if (this == &source)
         return true;
@@ -125,6 +141,7 @@ bool NewCell::operator=(NewCell& source) {
     return false;
 }
 
+/// @brief Let the initial cell grow.
 bool Cell::grow(void) {
     if (resource <= 0)
         return true;
@@ -133,6 +150,7 @@ bool Cell::grow(void) {
     return false;
 }
 
+/// @brief Let normal cells grow.
 bool NewCell::grow(void) {
     if (resource <= 0)
         return true;
@@ -141,4 +159,4 @@ bool NewCell::grow(void) {
     cout << "Cell " << id << " grows, remaining resource = " << resource << endl;
     return false;
 }
-//
+// Write some code above.

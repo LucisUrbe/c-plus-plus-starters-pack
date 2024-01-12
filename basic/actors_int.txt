@@ -1,0 +1,11 @@
+ID	Name	HP	ATK	DEF
+1	Wilson	55	15	30
+2	Carl	58	28	21	healer
+3	Emma	65	25	28	healer
+4	Warren	84	18	18
+5	Larissa	79	16	13
+6	Edith	54	13	24
+7	Kevin	94	12	14
+8	James	62	20	18
+9	Sophia	82	22	14
+10	Solomon	66	10	23

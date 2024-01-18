@@ -1,3 +1,12 @@
+///
+/// @file       linearList.hh
+/// @author     Gilbert Jin
+/// @copyright  Shanghai Jiao Tong University, 2020
+/// @date       January 18, 2024
+/// @version    0.3
+/// @brief      The father class of all linear lists.
+///
+
 template<typename Type>
 class linearList {
     public:

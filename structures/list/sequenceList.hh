@@ -1,5 +1,5 @@
 ///
-/// @file       sequanceList.hh
+/// @file       sequenceList.hh
 /// @author     Gilbert Jin
 /// @copyright  Shanghai Jiao Tong University, 2020
 /// @date       January 18, 2024

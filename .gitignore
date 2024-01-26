@@ -1,7 +1,8 @@
 # Visual Studio Code
-# *.code-workspace
+*.code-workspace
 
-# CMake 
+# CMake
+.cmake/
 build/
 CMakeFiles/
 Makefile
@@ -10,3 +11,6 @@ CMakeCache.txt
 
 # Built executables
 *.exe
+
+# CLion
+.idea/

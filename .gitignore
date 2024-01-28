@@ -12,5 +12,6 @@ CMakeCache.txt
 # Built executables
 *.exe
 
-# CLion
+# JB
 .idea/
+Testing/

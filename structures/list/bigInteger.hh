@@ -1,3 +1,12 @@
+///
+/// @file       bigInteger.hh
+/// @author     Gilbert Jin
+/// @copyright  Shanghai Jiao Tong University, 2020
+/// @date       January 20, 2024
+/// @version    0.3
+/// @brief      The big integer class, trying to support large integer operations.
+///
+
 #if !defined(_LIBCPP_IOSTREAM) || !defined(_GLIBCXX_IOSTREAM)
     #include <iostream>
 #endif

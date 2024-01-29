@@ -1,3 +1,12 @@
+///
+/// @file       stack.hh
+/// @author     Gilbert Jin
+/// @copyright  Shanghai Jiao Tong University, 2020
+/// @date       January 28, 2024
+/// @version    0.2
+/// @brief      The father class of all stacks.
+///
+
 template <typename Type>
 class stack {
 public:

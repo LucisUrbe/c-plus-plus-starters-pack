@@ -1,6 +1,3 @@
-# Visual Studio Code
-*.code-workspace
-
 # CMake
 .cmake/
 build/
@@ -11,7 +8,3 @@ CMakeCache.txt
 
 # Built executables
 *.exe
-
-# JB
-.idea/
-Testing/

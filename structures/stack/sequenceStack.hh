@@ -1,5 +1,5 @@
 ///
-/// @file       linearList.hh
+/// @file       sequenceStack.hh
 /// @author     Gilbert Jin
 /// @copyright  Shanghai Jiao Tong University, 2020
 /// @date       January 29, 2024

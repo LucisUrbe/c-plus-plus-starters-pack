@@ -1,3 +1,12 @@
+///
+/// @file       parenthesis_matching.cc
+/// @author     Gilbert Jin
+/// @copyright  Shanghai Jiao Tong University, 2020
+/// @date       February 3, 2024
+/// @version    0.2
+/// @brief      The main process of parenthesis matching program.
+///
+
 #include <cstring>
 #include "parenthesis_matching.hh"
 

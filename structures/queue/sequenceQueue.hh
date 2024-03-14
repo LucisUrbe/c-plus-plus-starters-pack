@@ -7,7 +7,7 @@
 /// @brief      The sequence queue class, storing elements in continuous memory space.
 ///
 
-#include "queue.hpp"
+#include "queue.hh"
 
 template <typename Type>
 class sequenceQueue: public queue<Type> {

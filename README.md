@@ -1,6 +1,6 @@
 # c-plus-plus-starters-pack
 
-The repository is GilbertJin's C++ staters' pack.
+The repository is LucisUrbe's C++ staters' pack.
 
 ## Compilation
 

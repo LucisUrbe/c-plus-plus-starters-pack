@@ -1,6 +1,6 @@
 ///
 /// @file       07-rearrange-words.cc
-/// @author     Gilbert Jin
+/// @author     Lucis Urbe
 /// @copyright  Shanghai Jiao Tong University, 2019
 /// @date       January 3, 2024
 /// @version    0.2

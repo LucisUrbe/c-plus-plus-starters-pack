@@ -1,6 +1,6 @@
 ///
 /// @file       01-average-and-rounding.cc
-/// @author     Gilbert Jin
+/// @author     Lucis Urbe
 /// @copyright  Shanghai Jiao Tong University, 2019
 /// @date       December 31, 2023
 /// @version    0.2

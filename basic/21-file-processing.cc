@@ -1,6 +1,6 @@
 ///
 /// @file       20-operator-overloads.cc
-/// @author     Gilbert Jin
+/// @author     Lucis Urbe
 /// @copyright  Shanghai Jiao Tong University, 2019
 /// @date       January 12, 2024
 /// @version    0.2

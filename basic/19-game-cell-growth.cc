@@ -1,6 +1,6 @@
 ///
 /// @file       19-cell-growth.cc
-/// @author     Gilbert Jin
+/// @author     Lucis Urbe
 /// @copyright  Shanghai Jiao Tong University, 2019
 /// @date       January 9, 2024
 /// @version    0.2

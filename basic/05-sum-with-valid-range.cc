@@ -1,6 +1,6 @@
 ///
 /// @file       05-sum-with-valid-range.cc
-/// @author     Gilbert Jin
+/// @author     Lucis Urbe
 /// @copyright  Shanghai Jiao Tong University, 2019
 /// @date       January 2, 2024
 /// @version    0.2

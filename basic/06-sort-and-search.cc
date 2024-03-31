@@ -1,6 +1,6 @@
 ///
 /// @file       06-sort-and-search.cc
-/// @author     Gilbert Jin
+/// @author     Lucis Urbe
 /// @copyright  Shanghai Jiao Tong University, 2019
 /// @date       January 3, 2024
 /// @version    0.2

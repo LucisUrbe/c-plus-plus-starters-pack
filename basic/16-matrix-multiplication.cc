@@ -1,6 +1,6 @@
 ///
 /// @file       16-matrix-multiplication.cc
-/// @author     Gilbert Jin
+/// @author     Lucis Urbe
 /// @copyright  Shanghai Jiao Tong University, 2019
 /// @date       January 8, 2024
 /// @version    0.2

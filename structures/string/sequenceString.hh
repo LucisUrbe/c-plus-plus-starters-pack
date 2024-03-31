@@ -1,6 +1,6 @@
 ///
 /// @file       sequenceString.hh
-/// @author     Gilbert Jin
+/// @author     Lucis Urbe
 /// @copyright  Shanghai Jiao Tong University, 2020
 /// @date       March 18, 2024
 /// @version    0.2

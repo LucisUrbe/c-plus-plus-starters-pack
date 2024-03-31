@@ -1,6 +1,6 @@
 ///
 /// @file       02-ascii-integers.cc
-/// @author     Gilbert Jin
+/// @author     Lucis Urbe
 /// @copyright  Shanghai Jiao Tong University, 2019
 /// @date       January 1, 2024
 /// @version    0.2

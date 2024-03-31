@@ -1,6 +1,6 @@
 ///
 /// @file       parenthesis_matching.cc
-/// @author     Gilbert Jin
+/// @author     Lucis Urbe
 /// @copyright  Shanghai Jiao Tong University, 2020
 /// @date       February 3, 2024
 /// @version    0.2

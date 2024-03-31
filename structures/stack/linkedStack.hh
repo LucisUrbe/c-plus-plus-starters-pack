@@ -1,6 +1,6 @@
 ///
 /// @file       linkedStack.hh
-/// @author     Gilbert Jin
+/// @author     Lucis Urbe
 /// @copyright  Shanghai Jiao Tong University, 2020
 /// @date       January 30, 2024
 /// @version    0.2

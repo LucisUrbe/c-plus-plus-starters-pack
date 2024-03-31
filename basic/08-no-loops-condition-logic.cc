@@ -1,6 +1,6 @@
 ///
 /// @file       08-no-loops-condition-logic.cc
-/// @author     Gilbert Jin
+/// @author     Lucis Urbe
 /// @copyright  Shanghai Jiao Tong University, 2019
 /// @date       January 4, 2024
 /// @version    0.2

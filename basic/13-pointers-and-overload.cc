@@ -1,6 +1,6 @@
 ///
 /// @file       13-pointers-and-overload.cc
-/// @author     Gilbert Jin
+/// @author     Lucis Urbe
 /// @copyright  Shanghai Jiao Tong University, 2019
 /// @date       January 6, 2024
 /// @version    0.2

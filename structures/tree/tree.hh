@@ -1,5 +1,5 @@
 ///
-/// @file       stack.hh
+/// @file       tree.hh
 /// @author     Lucis Urbe
 /// @copyright  Shanghai Jiao Tong University, 2020
 /// @date       March 31, 2024

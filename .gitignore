@@ -11,3 +11,4 @@ CMakeCache.txt
 
 # Possible open in CLion
 .idea/
+/cmake-build-debug

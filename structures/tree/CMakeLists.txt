@@ -4,8 +4,7 @@
 cmake_minimum_required(VERSION 3.27.8)
 
 # Set the project name
-project(c-plus-plus-starters-pack)
+project(HuffmanTree)
 
-# Add sub directories
-add_subdirectory(basic)
-add_subdirectory(structures/tree)
+# Add an executable
+add_executable(HuffmanTree.exe HuffmanTree.cc)
